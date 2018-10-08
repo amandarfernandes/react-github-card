@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Card from './Components/Card';
-import Search from './Components/Search';
+import Search from './Containers/Search';
 const url = 'https://api.github.com/users';
 class App extends Component {
   state={
