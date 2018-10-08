@@ -1,0 +1,43 @@
+.title {
+    margin: 120px 0 20px 0;
+}
+
+.title a {
+    text-decoration:none;
+    color:inherit;
+}
+.large {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 5px;
+}
+
+.small {
+    font-size: 11px;
+}
+
+.brown {
+    color: #654321;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 5px;
+}
+
+.box {
+    width:100px;
+    height: 90px;
+    background: rgba(221,199,158,0.3);
+    display:inline-flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+  .box:hover {
+    cursor:pointer;
+    background: rgba(221,199,158,0.6);
+  }
+
+
+  .box:nth-child(2) {
+      margin: 0 2px;
+  }

@@ -1,0 +1,29 @@
+.card {
+  width: 305px;
+  height: 340px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fffff9;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.stats {
+  width: 100%;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}

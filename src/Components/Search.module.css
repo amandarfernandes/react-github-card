@@ -1,0 +1,39 @@
+.Form {
+    padding: 0;
+    margin: 0;
+    width: 99%;
+    height: 50px;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    font-family: inherit;
+    background: #fffff9;
+    margin: 0;
+    padding: 0;
+}
+
+.Button {
+    height: 80%;
+    margin: 0;
+    padding: 5px;
+    background: rgba(221,199,158,0.3);
+    color:#696969;
+    border: none;
+    border-radius: 10px;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.Button:hover {
+    cursor: pointer;
+    background: rgb(94, 82, 60);
+    color:#fff;
+}
+.Button:disabled {
+    cursor:not-allowed;
+    background: rgba(221,199,158,0.3);
+    color: #696969
+    
+}
+
+

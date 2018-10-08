@@ -1,0 +1,44 @@
+.image {
+	position:absolute;
+	top: 45px;
+}
+
+.image .inner {
+	width:76px;
+	height:76px;
+	top: -3px;
+	left: -2px;	
+	position:absolute;
+	border: 1px solid; 
+	border-color:	#654321  #654321 #654321 transparent;
+	border-radius:50%;
+	transition: all 1.5s ease-in-out;
+}
+
+.image .outer {
+	width:82px;
+	height:82px;
+	position:absolute;
+	top:-6px;	
+	left:-5px;	
+	border: 1px solid; 
+	border-color:	#654321 transparent #654321 #654321;
+	border-radius:50%;
+	transition: all 1.5s ease-in-out;
+	}
+
+	.image img {
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	}
+	
+	.image:hover .inner {
+      cursor:pointer;
+			transform: rotate(360deg);
+		}
+		
+  .image:hover .outer {
+      cursor:pointer;
+      transform: rotate(-360deg);
+  }
